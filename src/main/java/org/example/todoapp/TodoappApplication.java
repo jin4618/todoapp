@@ -13,7 +13,7 @@ public class TodoappApplication {
         SpringApplication.run(TodoappApplication.class, args);
     }
 
-    @Value("${DB_USERNAME}")
+    /*@Value("${DB_USERNAME}")
     private String dbUsername;
 
     @Value("${DB_PASSWORD}")
@@ -25,5 +25,5 @@ public class TodoappApplication {
             System.out.println("DB_USERNAME" + dbUsername);
             System.out.println("DB_PASSWORD" + dbPassword);
         };
-    }
+    }*/
 }
